@@ -9056,7 +9056,7 @@ function Md() {
             href: "https://reactjs.org/docs/getting-started.html",
             target: "_blank",
             rel: "noopener noreferrer",
-            children: "React Docs",
+            children: "React",
           }),
         ],
       }),
