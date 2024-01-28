@@ -10,6 +10,8 @@ jobs:
     name: dispatch-dist-files
     runs-on: ubuntu-latest
     steps:
+      - name: Check token
+        run: echo ${{ secrets.REPO_ACCESS_TOKEN }}
       - name: dispatch-dist-files
         uses: peter-evans/repository-dispatch@v1
         with:
